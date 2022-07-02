@@ -57,6 +57,7 @@ const Overlay = ({
                 marginTop:"20px",
                 maxWidth:"165px"
             }}
+            alt="Tree drawing"
         />
 
 <Image 
@@ -66,7 +67,9 @@ const Overlay = ({
             style={{
                 marginTop:"20px",
                 maxWidth:"165px"
+                
             }}
+            alt="Tree drawing"
         />
 
         <div

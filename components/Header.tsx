@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 
@@ -16,23 +17,25 @@ const Header = () => {
       
       >
         <Nav className="ms-auto">
-          <a className="navbar-brand" href="/">
+          <Link href="/">
+            <a className="navbar-brand">
             <h2 
                 className="font-weight-bolder"
                 style={{marginLeft:"10px",
               fontFamily:"Nunito"}}
                 >
                     A Tree Map</h2>
-          </a>
+            </a>
+          </Link>
         </Nav>
 
         <Navbar.Collapse id="responsive-navbar-nav"  >
           <Nav className="ms-auto" >
-             <a className="navbar-brand" href="/intro">
-              <h3 style={{fontFamily:"Nunito"}}>
+             <Link  href="/intro">
+              <a className="navbar-brand"><h3 style={{fontFamily:"Nunito"}}>
            Learn more about the 🌳🌲🌴 map
-              </h3>
-            </a>
+              </h3></a>
+            </Link>
            
           
           </Nav>

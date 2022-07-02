@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function About() {
     return (
@@ -66,7 +67,7 @@ To join this Collaborative Project and grow more trees on the map:
 src={"/assets/brooklynBG.GIF"} alt="loading..."  />
 </p>
 
-I’ve been working on the back-end of the website, so hopefully, there will be a tree photo upload feature on the website soon (stay tuned). For now, please send tree portrait, location, pixel icon, and brief thoughts/feelings about the tree, through my <a style={{color:"black"}}href="mailto:chenyiyuecyy@gmail.com"> email </a>, I’ll update your trees on the map manually.  
+I’ve been working on the back-end of the website, so hopefully, there will be a tree photo upload feature on the website soon (stay tuned). For now, please send tree portrait, location, pixel icon, and brief thoughts/feelings about the tree, through my <Link href="mailto:chenyiyuecyy@gmail.com">email</Link>, I’ll update your trees on the map manually.  
 
 </h1>
         </div>
