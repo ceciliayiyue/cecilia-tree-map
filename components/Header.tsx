@@ -29,17 +29,15 @@ const Header = () => {
           </Link>
         </Nav>
 
-        <Navbar.Collapse id="responsive-navbar-nav"  >
           <Nav className="ms-auto" >
              <Link  href="/intro">
               <a className="navbar-brand"><h3 style={{fontFamily:"Nunito"}}>
-           Learn more about the 🌳🌲🌴 map
+           Learn more about 🌳🌲🌴 map
               </h3></a>
             </Link>
            
           
           </Nav>
-        </Navbar.Collapse>
         
         
       </Navbar>
