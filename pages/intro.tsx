@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 
 export default function About() {
     return (
@@ -54,9 +54,16 @@ To join this Collaborative Project and grow more trees on the map:
 <ol>
 3. Design a pixel icon for your tree, you can use tools like Pixilart or Dotpict
 </ol>
-<img style={{paddingLeft:"200px"}}src={"/assets/FlorenceIcon.GIF"} alt="loading..." />
-<a>                      </a>
-<img src={"/assets/brooklynBG.GIF"} alt="loading..." />
+<div style={{paddingLeft:"200px"}}>
+    <Image 
+      width= '200vw' 
+      height='200vw'
+    src={"/assets/FlorenceIcon.GIF"} alt="loading..."  />
+</div>
+<Image 
+  width= '200vw' 
+  height='200vw'
+src={"/assets/brooklynBG.GIF"} alt="loading..."  />
 </p>
 
 I’ve been working on the back-end of the website, so hopefully, there will be a tree photo upload feature on the website soon (stay tuned). For now, please send tree portrait, location, pixel icon, and brief thoughts/feelings about the tree, through my <a style={{color:"black"}}href="mailto:chenyiyuecyy@gmail.com"> email </a>, I’ll update your trees on the map manually.  

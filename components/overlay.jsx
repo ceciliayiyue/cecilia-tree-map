@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { Col,Button} from "react-bootstrap";
 import styled from "styled-components";
@@ -47,7 +48,10 @@ const Overlay = ({
                     X
                 </Button1> */}
 
-        <img
+        <Image
+    
+            width= '200vw' 
+            height='200vw'
             src={icon}
             style={{
                 marginTop:"20px",
@@ -55,7 +59,9 @@ const Overlay = ({
             }}
         />
 
-<img
+<Image 
+            width= '200vw' 
+            height='200vw'
             src={image}
             style={{
                 marginTop:"20px",
@@ -118,69 +124,69 @@ const allTrees = {
     
     "Puerto Rico Palm":  { 
     treeName:"Palm Tree Beside the street, I thought I would meet you on the beach",
-    icon:"assets/PRpalmIcon.png",
-    image:"assets/PRpalm.jpg",
+    icon:"/assets/PRpalmIcon.png",
+    image:"/assets/PRpalm.jpg",
     location: "San Juan, Puerto Rico",
     emo:"xxx" }, 
 
     "palette":  { 
         treeName:"I bumped into a color palette",
-        icon:"assets/PaletteIcon.png",
-        image:"assets/Palette.jpg",
+        icon:"/assets/PaletteIcon.png",
+        image:"/assets/Palette.jpg",
         location: "Storm King Art Center, New Windsor, New York",
         emo:"xxx" }, 
     
     "fall":  { 
         treeName:"fall",
-        icon:"assets/stormkingIcon.png",
-        image:"assets/stormking.jpg",
+        icon:"/assets/stormkingIcon.png",
+        image:"/assets/stormking.jpg",
         location: "Storm King Art Center",
         emo:"xxx" }, 
     
     "guanajuato":  { 
         treeName:"well trimmed",
-        icon:"assets/guanajuatoIcon.png",
-        image:"assets/guanajuato.jpg",
+        icon:"/assets/guanajuatoIcon.png",
+        image:"/assets/guanajuato.jpg",
         location: "Jardín de la Unión, Guanajuato City, Mexico",
         emo:"xxx" }, 
     "SH":  { 
         treeName:"tangled, geometry",
-        icon:"assets/SHIcon.png",
-        image:"assets/SH.jpg",
+        icon:"/assets/SHIcon.png",
+        image:"/assets/SH.jpg",
         location: "French Concession, Shanghai",
         emo:"xxx" }, 
 
     "teotihuacan":  { 
         treeName:"a cactus next to the sun of the pyramid",
-        icon:"assets/teotihuacanIcon.png",
-        image:"assets/teotihuacan.jpg",
+        icon:"/assets/teotihuacanIcon.png",
+        image:"/assets/teotihuacan.jpg",
         location: "Jardín botánico Pirámides de Teotihuacán, Teotihuacán, Mexico",
         emo:"xxx" }, 
      
      "prospect":  { 
         treeName:"looking up, thought this was a black and white photography",
-        icon:"assets/prospectIcon.png",
-        image:"assets/prospect.jpg",
+        icon:"/assets/prospectIcon.png",
+        image:"/assets/prospect.jpg",
         location: "Brooklyn Prospect Park, New York City",
         emo:"xxx" }, 
 
     "florence":  { 
         treeName:"I used to see them every day on campus, still I stopped by their beauties every day",
-        icon:"assets/FlorenceIcon.png",
-        image:"assets/Florence.jpg",
+        icon:"/assets/FlorenceIcon.png",
+        image:"/assets/Florence.jpg",
         location: "Villa La Pietra, Florence",
         emo:"xxx" }, 
 
     "rockfeller":  { 
         treeName:"Christmas in the city",
-        icon:"assets/rockfellerIcon.png",
-        image:"assets/rockfeller.jpg",
+        icon:"/assets/rockfellerIcon.png",
+        image:"/assets/rockfeller.jpg",
         location: "Rockefeller Center,New York City",
         emo:"xxx" }, 
         // "keyTree(same as keyTree in otther file)":  { 
         //     treeName:"",
-        //     icon:"assets/PRpalmIcon.png",
-        //     image:"assets/PRpalm.jpg",
+        //     icon:"/assets/PRpalmIcon.png",
+        //     image:"/assets/PRpalm.jpg",
         //     location: "Puerto Rico",
         //     emo:"xxx" }, 
         

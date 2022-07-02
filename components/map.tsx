@@ -4,11 +4,8 @@ import {
   Marker,
   InfoWindow
 } from "@react-google-maps/api";
-import Places from "./places";
-import Distance from "./distance";
 
 type LatLngLiteral = google.maps.LatLngLiteral;
-type DirectionsResult = google.maps.DirectionsResult;
 type MapOptions = google.maps.MapOptions;
 
 
@@ -107,6 +104,7 @@ const  Map: React.FunctionComponent<{retrieveTree: any}> = (props) => {
           /> */}
         {markers.map((marker)=>(
                       <Marker
+                      key={marker.name}
             position={marker.position}
             icon={marker.icon}
             onClick={() => {
