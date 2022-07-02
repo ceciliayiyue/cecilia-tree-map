@@ -7,7 +7,7 @@ export default function About() {
         id="fontsss" 
         style={{
             fontFamily:"",
-            height:"900px", 
+            height:"100%", 
             backgroundColor: "lightyellow",
             paddingLeft:"100px",
             paddingRight:"100px",
@@ -68,7 +68,9 @@ src={"/assets/brooklynBG.GIF"} alt="loading..."  />
 </p>
 
 I’ve been working on the back-end of the website, so hopefully, there will be a tree photo upload feature on the website soon (stay tuned). For now, please send tree portrait, location, pixel icon, and brief thoughts/feelings about the tree, through my <Link href="mailto:chenyiyuecyy@gmail.com">email</Link>, I’ll update your trees on the map manually.  
-
+<p/>
+<p style={{color:"darkgreen"}}>
+Contact me if you have any questions! I'd love to talk to you more about my passionate tree project🥳 </p>
 </h1>
         </div>
     )};
